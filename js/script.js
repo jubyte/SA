@@ -1,0 +1,72 @@
+// estado (login ou cadastro)
+let cadastro = false;
+
+// elementos
+const toggle = document.getElementById("toggle");
+const titulo = document.getElementById("titulo");
+const form = document.getElementById("form-login");
+const mensagem = document.getElementById("mensagem");
+const botao = form.querySelector("button");
+
+// alternar entre login e cadastro
+toggle.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    cadastro = !cadastro;
+
+    titulo.innerText = cadastro ? "CADASTRO" : "LOGIN";
+    botao.innerText = cadastro ? "CADASTRAR" : "ENTRAR";
+
+    toggle.innerText = cadastro
+        ? "Já tem uma conta? Faça login!"
+        : "Não tem uma conta? Cadastre-se!";
+
+    mensagem.innerHTML = "";
+});
+
+// envio do formulário
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    const email = document.getElementById("email").value.trim();
+    const senha = document.getElementById("senha").value.trim();
+
+    mensagem.innerHTML = "";
+
+    // validações
+    if (!email.includes("@") || !email.includes(".")) {
+        mensagem.innerHTML = "<div class='text-danger'>Email inválido!</div>";
+        return;
+    }
+
+    if (senha.length < 4) {
+        mensagem.innerHTML = "<div class='text-danger'>A senha deve ter pelo menos 4 caracteres!</div>";
+        return;
+    }
+
+    // CADASTRO
+    if (cadastro) {
+        if (localStorage.getItem(email)) {
+            mensagem.innerHTML = "<div class='text-warning'>Esse email já está cadastrado!</div>";
+            return;
+        }
+
+        localStorage.setItem(email, senha);
+        mensagem.innerHTML = "<div class='text-success'>Cadastro realizado com sucesso!</div>";
+    }
+
+    // LOGIN
+    else {
+        const senhaSalva = localStorage.getItem(email);
+
+        if (senhaSalva === null) {
+            mensagem.innerHTML = "<div class='text-danger'>Usuário não encontrado!</div>";
+        } else if (senhaSalva === senha) {
+            mensagem.innerHTML = "<div class='text-success'>Login realizado com sucesso!</div>";
+        } else {
+            mensagem.innerHTML = "<div class='text-danger'>Senha incorreta!</div>";
+        }
+    }
+
+    form.reset();
+});
