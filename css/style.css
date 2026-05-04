@@ -27,3 +27,37 @@ body {
   backdrop-filter: blur(3px);
   border: 1px solid rgba(120,0,0,0.6);
 }
+
+.login__title {
+  font-size: 255%;
+  letter-spacing: 55%;
+  text-align: center;
+
+  background: linear-gradient(90deg, #cc2400, #fba928, #cc2400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login__divider {
+  display: flex;
+  align-items: center;
+  margin: 30px 0 40px;
+}
+
+.login__logo {
+  width: 55px;
+  margin: 0 1px;
+}
+
+.login__line {
+  flex: 1;
+  height: 3.5px;
+}
+
+.login__line:first-child {
+  background: linear-gradient(to left, #bc7226, transparent);
+}
+
+.login__line:last-child {
+  background: linear-gradient(to right, #bc7226, transparent);
+}
