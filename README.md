@@ -6,10 +6,13 @@ Este projeto tem como objetivo o desenvolvimento de um sistema para monitorament
 
 A aplicação será responsável por coletar, processar, armazenar e analisar dados operacionais críticos, permitindo maior controle, segurança e eficiência na gestão ferroviária. O sistema também oferecerá suporte à manutenção preditiva e geração de relatórios estratégicos para tomada de decisão.
 
-Objetivos do Projeto:
-Objetivo Geral
+
+
+Objetivo geral do Projeto:
 
 Desenvolver uma plataforma digital capaz de monitorar, em tempo real, o funcionamento de trens e trilhos, garantindo maior segurança operacional e eficiência na manutenção.
+
+
 
 Objetivos Específicos:
 Coletar dados contínuos de sensores IoT
@@ -21,11 +24,15 @@ Armazenar dados históricos para análise
 Permitir manutenção preditiva baseada em padrões
 Garantir segurança, integridade e controle de acesso aos dados
 
+
+
 Equipe do Projeto:
 [Eduarda Bosse]
 [Guilherme Figueiró]
 [Henrique Tonioti]
 [Julia Barbosa]
+
+
 
 Funcionalidades Previstas:
 Coleta e Processamento de Dados:
@@ -67,6 +74,8 @@ Integração com sistemas externos via APIs
 Armazenamento em banco de dados centralizado
 Registro de logs de operações e eventos
 Sistema escalável para crescimento futuro
+
+
 
 Considerações Técnicas (Resumo):
 
