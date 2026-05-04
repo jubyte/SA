@@ -34,7 +34,7 @@ Identificação única de cada sensor
 Validação dos dados recebidos
 Processamento em tempo real
 
-#Monitoramento Inteligente:
+Monitoramento Inteligente:
 Detecção automática de falhas com base em padrões
 Análise de comportamento para manutenção preditiva
 Monitoramento de:
