@@ -1,83 +1,121 @@
 Sistema de Monitoramento Ferroviário Inteligente
----
-Proposta do Sistema:
 
-Este projeto tem como objetivo o desenvolvimento de um sistema para monitoramento e gerenciamento de operações ferroviárias em tempo real, utilizando dados provenientes de sensores IoT instalados em locomotivas e trilhos.
+============
 
-A aplicação será responsável por coletar, processar, armazenar e analisar dados operacionais críticos, permitindo maior controle, segurança e eficiência na gestão ferroviária. O sistema também oferecerá suporte à manutenção preditiva e geração de relatórios estratégicos para tomada de decisão.
+O Sistema de Monitoramento Ferroviário Inteligente é uma aplicação desenvolvida para gerenciar e monitorar operações ferroviárias em tempo real.<br>
+Ele utiliza dados provenientes de sensores IoT instalados em locomotivas e trilhos para garantir segurança, eficiência e suporte à tomada de decisão.<br><br>
 
-<br>
-Objetivo geral do Projeto:
+O sistema é responsável por coletar, processar, armazenar e analisar dados operacionais críticos, além de permitir manutenção preditiva e geração de relatórios estratégicos.<br>
 
-Desenvolver uma plataforma digital capaz de monitorar, em tempo real, o funcionamento de trens e trilhos, garantindo maior segurança operacional e eficiência na manutenção.
-  
-<br>
-Objetivos Específicos:
-Coletar dados contínuos de sensores IoT
-Processar informações em tempo real
-Identificar falhas automaticamente
-Emitir alertas para eventos críticos
-Disponibilizar dashboards interativos
-Armazenar dados históricos para análise
-Permitir manutenção preditiva baseada em padrões
-Garantir segurança, integridade e controle de acesso aos dados
+Quick Start
+Objetivo do sistema: Monitoramento ferroviário em tempo real<br>
+Entrada de dados: Sensores IoT (velocidade, localização, energia, falhas)<br>
+Processamento: Tempo real<br>
+Saída: Dashboards, alertas e relatórios<br>
+Acesso: Sistema autenticado com controle de permissões<br>
+Documentação Essencial
 
-<br>
-Equipe do Projeto:
-[Eduarda Bosse]
-[Guilherme Figueiró]
-[Henrique Tonioti]
-[Julia Barbosa]
+Todos os usuários devem compreender:<br><br>
 
-<br>  
-Funcionalidades Previstas:
-Coleta e Processamento de Dados:
-Recebimento contínuo de dados de sensores IoT
-Identificação única de cada sensor
-Validação dos dados recebidos
-Processamento em tempo real
+Regras de negócio do sistema<br>
+Requisitos funcionais e não funcionais<br>
+Estrutura de dados e validação<br>
+Políticas de segurança e autenticação<br>
+Armazenamento e integridade de dados<br>
+Quem é você?
 
-Monitoramento Inteligente:
-Detecção automática de falhas com base em padrões
-Análise de comportamento para manutenção preditiva
-Monitoramento de:
-Velocidade
-Localização
-Consumo de energia
-Status de falhas
+Identifique seu perfil no projeto:<br><br>
 
-Alertas e Notificações:
-Geração automática de alertas em caso de falhas
-Notificação para usuários responsáveis
+Desenvolvedor Backend - Processamento e APIs<br>
+Desenvolvedor Frontend - Interface e dashboards<br>
+Analista de Dados - Processamento e análise preditiva<br>
+Administrador de Sistema - Infraestrutura e segurança<br>
+Usuário Operacional - Monitoramento e operação<br>
+Para Usuários Específicos
+Desenvolvedor Backend
 
-Visualização de Dados:
-Dashboards com atualização em tempo real
-Visualização da localização dos trens
-Indicadores de desempenho operacional
+Responsável pelo processamento de dados e integração com sensores:<br><br>
 
-Relatórios e Histórico:
-Geração de relatórios operacionais
-Consulta a dados históricos
-Exportação de relatórios
+Recebimento de dados em tempo real<br>
+Validação e armazenamento<br>
+Integração via APIs<br>
+Processamento de eventos<br>
+Desenvolvedor Frontend
 
-Segurança e Controle de Acesso:
-Sistema de autenticação de usuários
-Diferentes níveis de permissão
-Garantia de integridade e consistência dos dados
+Responsável pela interface do sistema:<br><br>
 
-Integração e Infraestrutura:
-Integração com sistemas externos via APIs
-Armazenamento em banco de dados centralizado
-Registro de logs de operações e eventos
-Sistema escalável para crescimento futuro
-  
-<br>
-Considerações Técnicas (Resumo):
+Construção de dashboards<br>
+Visualização em tempo real<br>
+Interface responsiva (web e mobile)<br>
+Experiência do usuário<br>
+Analista de Dados
 
-O sistema será projetado seguindo boas práticas de desenvolvimento, priorizando:
+Responsável pela análise e inteligência do sistema:<br><br>
 
-Alto desempenho (tempo real)
-Escalabilidade
-Segurança da informação
-Usabilidade (interface simples e intuitiva)
-Compatibilidade com web e dispositivos móveis
+Identificação de padrões<br>
+Detecção de falhas<br>
+Análise para manutenção preditiva<br>
+Geração de relatórios<br>
+Administrador de Sistema
+
+Responsável pela infraestrutura e operação:<br><br>
+
+Gerenciamento de banco de dados<br>
+Segurança e autenticação<br>
+Backup e recuperação<br>
+Monitoramento do sistema<br>
+Usuário Operacional
+
+Usuário final do sistema:<br><br>
+
+Monitoramento de trens<br>
+Visualização de dashboards<br>
+Recebimento de alertas<br>
+Consulta de relatórios<br>
+Funcionalidades do Sistema
+
+O sistema inclui as seguintes funcionalidades principais:<br><br>
+
+Coleta contínua de dados de sensores IoT<br>
+Identificação única de sensores<br>
+Validação de dados recebidos<br>
+Armazenamento em banco de dados centralizado<br>
+Processamento em tempo real<br>
+Monitoramento de velocidade, localização e consumo<br>
+Detecção automática de falhas<br>
+Geração de alertas<br>
+Dashboards atualizados em tempo real<br>
+Geração e exportação de relatórios<br>
+Consulta de dados históricos<br>
+Controle de acesso por autenticação<br>
+Registro de logs do sistema<br>
+Integração com sistemas externos<br>
+Requisitos do Sistema
+Requisitos Funcionais
+Receber dados em tempo real<br>
+Validar dados antes do armazenamento<br>
+Processar dados continuamente<br>
+Exibir dashboards<br>
+Mostrar localização dos trens<br>
+Detectar e exibir falhas<br>
+Emitir alertas<br>
+Gerar relatórios<br>
+Permitir consultas históricas<br>
+Implementar autenticação de usuários<br>
+Controlar níveis de acesso<br>
+Exportar relatórios<br>
+Requisitos Não Funcionais
+Alto desempenho e tempo de resposta rápido<br>
+Processamento em tempo real<br>
+Escalabilidade do sistema<br>
+Segurança dos dados<br>
+Interface intuitiva<br>
+Compatibilidade web e mobile<br>
+Backup periódico<br>
+Boas práticas de desenvolvimento<br>
+Integração via APIs<br>
+Equipe do Projeto
+[Seu Nome] – Desenvolvimento e análise<br>
+[Integrante 2] – Backend e banco de dados<br>
+[Integrante 3] – Frontend e interface<br>
+[Integrante 4] – Testes e documentação<br>
