@@ -8,7 +8,7 @@ O sistema é responsável por coletar, processar, armazenar e analisar dados ope
 
 Quick Start
 Objetivo do sistema: Monitoramento ferroviário em tempo real<br>
-*Entrada de dados: Sensores IoT (velocidade, localização, energia, falhas)<br>
+-Entrada de dados: Sensores IoT (velocidade, localização, energia, falhas)<br>
 *Processamento: Tempo real<br>
 *Saída: Dashboards, alertas e relatórios<br>
 *Acesso: Sistema autenticado com controle de permissões<br><br>
