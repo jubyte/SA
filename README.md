@@ -11,7 +11,7 @@ Objetivo geral do Projeto:
 
 Desenvolver uma plataforma digital capaz de monitorar, em tempo real, o funcionamento de trens e trilhos, garantindo maior segurança operacional e eficiência na manutenção.
   
-
+<br>
 Objetivos Específicos:
 Coletar dados contínuos de sensores IoT
 Processar informações em tempo real
@@ -28,8 +28,8 @@ Equipe do Projeto:
 [Guilherme Figueiró]
 [Henrique Tonioti]
 [Julia Barbosa]
-  
-  
+
+    
 Funcionalidades Previstas:
 Coleta e Processamento de Dados:
 Recebimento contínuo de dados de sensores IoT
@@ -72,7 +72,7 @@ Registro de logs de operações e eventos
 Sistema escalável para crescimento futuro
   
   
-**Considerações Técnicas (Resumo):
+Considerações Técnicas (Resumo):
 
 O sistema será projetado seguindo boas práticas de desenvolvimento, priorizando:
 
