@@ -1,4 +1,4 @@
-# Sistema de Monitoramento Ferroviário
+![Imagem do baner](/assets/br.jpg)
 
 
 O Sistema de Monitoramento Ferroviário Inteligente é uma aplicação desenvolvida para gerenciar e monitorar operações ferroviárias em tempo real. Ele utiliza dados provenientes de sensores IoT instalados em locomotivas e trilhos para garantir segurança, eficiência e suporte à tomada de decisão.<br><br>
