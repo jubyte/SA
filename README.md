@@ -5,8 +5,8 @@ O Sistema de Monitoramento Ferroviário Inteligente é uma aplicação desenvolv
 
 O sistema é responsável por coletar, processar, armazenar e analisar dados operacionais críticos, além de permitir manutenção preditiva e geração de relatórios estratégicos.<br><br>
 
-Quick Start
 Objetivo do sistema: Monitoramento ferroviário em tempo real<br>
+
 * Entrada de dados: Sensores IoT (velocidade, localização, energia, falhas)<br>
 * Processamento: Tempo real<br>
 * Saída: Dashboards, alertas e relatórios<br>
@@ -30,9 +30,9 @@ O sistema inclui as seguintes funcionalidades principais:<br>
 * Controlar níveis de acesso<br>
 * Exportar relatórios<br>
 * Alto desempenho e tempo de resposta rápido<br>
-* Processamento em tempo real<br>
+* Processamento em tempo real<br><br>
 
-Equipe do Projeto:<br><br> 
+Equipe do Projeto:<br>
 [Eduarda Bosse]<br>
 [Guilherme Figueiró]<br>
 [Henrique Tonioti]<br>
