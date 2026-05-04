@@ -61,3 +61,21 @@ body {
 .login__line:last-child {
   background: linear-gradient(to right, #bc7226, transparent);
 }
+
+.login__label {
+  font-size: 14px;
+  letter-spacing: 2px;
+
+  background: linear-gradient(90deg, #cc2400, #fba928, #cc2400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.login__link {
+  font-size: 13px;
+  color: #d1d1d1;
+}
+
+.login__link:hover {
+  color: #fff4cf;
+}
