@@ -5,13 +5,13 @@ Proposta do Sistema:
 Este projeto tem como objetivo o desenvolvimento de um sistema para monitoramento e gerenciamento de operações ferroviárias em tempo real, utilizando dados provenientes de sensores IoT instalados em locomotivas e trilhos.
 
 A aplicação será responsável por coletar, processar, armazenar e analisar dados operacionais críticos, permitindo maior controle, segurança e eficiência na gestão ferroviária. O sistema também oferecerá suporte à manutenção preditiva e geração de relatórios estratégicos para tomada de decisão.
-  
-  
+
+
 Objetivo geral do Projeto:
 
 Desenvolver uma plataforma digital capaz de monitorar, em tempo real, o funcionamento de trens e trilhos, garantindo maior segurança operacional e eficiência na manutenção.
   
-  
+
 Objetivos Específicos:
 Coletar dados contínuos de sensores IoT
 Processar informações em tempo real
@@ -72,7 +72,7 @@ Registro de logs de operações e eventos
 Sistema escalável para crescimento futuro
   
   
-Considerações Técnicas (Resumo):
+##Considerações Técnicas (Resumo):
 
 O sistema será projetado seguindo boas práticas de desenvolvimento, priorizando:
 
