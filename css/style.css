@@ -79,3 +79,31 @@ body {
 .login__link:hover {
   color: #fff4cf;
 }
+
+.login__input {
+  background:
+    linear-gradient(90deg, rgba(255,140,0,0.08), rgba(0,0,0,0.4));
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  border-radius: 0;
+}
+
+.login__input:focus {
+  border-color: #ff6a00;
+  box-shadow: 0 0 8px rgba(255,106,0,0.4);
+}
+
+.login__button {
+  margin-top: 15px;
+
+  background: linear-gradient(90deg, #fba928, #cc2400, #fba928);
+  border: 1px solid rgba(200,200,200,0.5);
+
+  color: #fff4cf;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.login__button:hover {
+  color: #d1d1d1;
+}
