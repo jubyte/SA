@@ -54,7 +54,7 @@ O sistema inclui as seguintes funcionalidades principais:<br>
 * Boas práticas de desenvolvimento<br>
 * Integração via APIs<br><br>
 
-Equipe do Projeto:<br>  
+Equipe do Projeto:<br<br> 
 [Eduarda Bosse]<br>
 [Guilherme Figueiró]<br>
 [Henrique Tonioti]<br>
