@@ -19,13 +19,11 @@ O sistema inclui as seguintes funcionalidades principais:<br>
 * Validação de dados recebidos<br>
 * Armazenamento em banco de dados centralizado<br>
 * Monitoramento de velocidade, localização e consumo<br>
-* Dashboards atualizados em tempo real<br>
 * Geração e exportação de relatórios<br>
 * Consulta de dados históricos<br>
 * Controle de acesso por autenticação<br>
 * Receber dados em tempo real<br>
 * Processar dados continuamente<br>
-* Mostrar localização dos trens<br>
 * Detectar e exibir falhas<br>
 * Emitir alertas<br>
 * Implementar autenticação de usuários<br>
