@@ -12,69 +12,9 @@ Objetivo do sistema: Monitoramento ferroviário em tempo real<br>
 Entrada de dados: Sensores IoT (velocidade, localização, energia, falhas)<br>
 Processamento: Tempo real<br>
 Saída: Dashboards, alertas e relatórios<br>
-Acesso: Sistema autenticado com controle de permissões<br>
-Documentação Essencial
+Acesso: Sistema autenticado com controle de permissões<br><br>
 
-Todos os usuários devem compreender:<br><br>
-
-Regras de negócio do sistema<br>
-Requisitos funcionais e não funcionais<br>
-Estrutura de dados e validação<br>
-Políticas de segurança e autenticação<br>
-Armazenamento e integridade de dados<br>
-Quem é você?
-
-Identifique seu perfil no projeto:<br><br>
-
-Desenvolvedor Backend - Processamento e APIs<br>
-Desenvolvedor Frontend - Interface e dashboards<br>
-Analista de Dados - Processamento e análise preditiva<br>
-Administrador de Sistema - Infraestrutura e segurança<br>
-Usuário Operacional - Monitoramento e operação<br>
-Para Usuários Específicos
-Desenvolvedor Backend
-
-Responsável pelo processamento de dados e integração com sensores:<br><br>
-
-Recebimento de dados em tempo real<br>
-Validação e armazenamento<br>
-Integração via APIs<br>
-Processamento de eventos<br>
-Desenvolvedor Frontend
-
-Responsável pela interface do sistema:<br><br>
-
-Construção de dashboards<br>
-Visualização em tempo real<br>
-Interface responsiva (web e mobile)<br>
-Experiência do usuário<br>
-Analista de Dados
-
-Responsável pela análise e inteligência do sistema:<br><br>
-
-Identificação de padrões<br>
-Detecção de falhas<br>
-Análise para manutenção preditiva<br>
-Geração de relatórios<br>
-Administrador de Sistema
-
-Responsável pela infraestrutura e operação:<br><br>
-
-Gerenciamento de banco de dados<br>
-Segurança e autenticação<br>
-Backup e recuperação<br>
-Monitoramento do sistema<br>
-Usuário Operacional
-
-Usuário final do sistema:<br><br>
-
-Monitoramento de trens<br>
-Visualização de dashboards<br>
-Recebimento de alertas<br>
-Consulta de relatórios<br>
-Funcionalidades do Sistema
-
-O sistema inclui as seguintes funcionalidades principais:<br><br>
+O sistema inclui as seguintes funcionalidades principais:<br>
 
 Coleta contínua de dados de sensores IoT<br>
 Identificação única de sensores<br>
@@ -114,8 +54,9 @@ Compatibilidade web e mobile<br>
 Backup periódico<br>
 Boas práticas de desenvolvimento<br>
 Integração via APIs<br>
-Equipe do Projeto
-[Seu Nome] – Desenvolvimento e análise<br>
-[Integrante 2] – Backend e banco de dados<br>
-[Integrante 3] – Frontend e interface<br>
-[Integrante 4] – Testes e documentação<br>
+
+Equipe do Projeto:<br><br>
+[Eduarda Bosse]
+[Guilherme Figueiró]
+[Henrique Tonioti]
+[Julia Barbosa]
