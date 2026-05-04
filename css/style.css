@@ -17,3 +17,13 @@ body {
     url('../assets/imgs/fundo_login.png') center/cover no-repeat;
   z-index: -1;
 }
+
+.login__box {
+  max-width: 550px;
+  width: 100%;
+  padding: 60px 60px;
+
+  background: rgba(10, 10, 10, 0.72);
+  backdrop-filter: blur(3px);
+  border: 1px solid rgba(120,0,0,0.6);
+}
