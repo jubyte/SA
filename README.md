@@ -55,8 +55,8 @@ Backup periódico<br>
 Boas práticas de desenvolvimento<br>
 Integração via APIs<br>
 
-Equipe do Projeto:<br><br>
-[Eduarda Bosse]
-[Guilherme Figueiró]
-[Henrique Tonioti]
+Equipe do Projeto:
+[Eduarda Bosse]<br>
+[Guilherme Figueiró]<br>
+[Henrique Tonioti]<br>
 [Julia Barbosa]
