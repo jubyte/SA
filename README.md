@@ -53,7 +53,7 @@ Interface intuitiva<br>
 Compatibilidade web e mobile<br>
 Backup periódico<br>
 Boas práticas de desenvolvimento<br>
-Integração via APIs<br>
+Integração via APIs<br><br>
 
 Equipe do Projeto:
 [Eduarda Bosse]<br>
