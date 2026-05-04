@@ -72,7 +72,7 @@ Registro de logs de operações e eventos
 Sistema escalável para crescimento futuro
   
   
-##Considerações Técnicas (Resumo):
+**Considerações Técnicas (Resumo):
 
 O sistema será projetado seguindo boas práticas de desenvolvimento, priorizando:
 
