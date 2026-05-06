@@ -3,7 +3,7 @@ body {
   font-family: 'Gotham', sans-serif;
   font-weight: bold;
   background: #000;
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -25,7 +25,7 @@ body {
   width: 100%;
   padding: 60px 60px;
 
-  background: rgba(10, 10, 10, 0.72);
+  background: #0a0a0ad2;
   backdrop-filter: blur(3px);
   border: 1px solid rgba(120,0,0,0.6);
 }
@@ -78,6 +78,10 @@ body {
 .login__link {
   font-size: 13px;
   color: #d1d1d1;
+  font-family: 'Science Gothic', sans-serif;
+  font-weight: normal;
+
+
 }
 
 .login__link:hover {
@@ -110,4 +114,28 @@ body {
 
 .login__button:hover {
   color: #d1d1d1;
+}
+
+.texto-perigo{
+  font-family: 'Science Gothic', sans-serif;
+  font-weight: normal;
+  color:#9b130a;
+  backdrop-filter: blur(2px);
+  margin-top: 15px;
+  border-radius: 8px;
+  background:  #cc250046;
+  border: 1px solid rgba(212, 63, 63, 0.5);
+
+}
+
+.texto-sucesso{
+  font-family: 'Science Gothic', sans-serif;
+  font-weight: normal;
+  color:#ee821e
+}
+
+.texto-aviso{
+  font-family: 'Science Gothic', sans-serif;
+  font-weight: normal;
+  color:#f0ca22
 }
