@@ -3,6 +3,8 @@ body {
   font-family: 'Gotham', sans-serif;
   font-weight: bold;
   background: #000;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 #titulo {
@@ -29,8 +31,10 @@ body {
 }
 
 .login__title {
-  font-size: 255%;
+  font-size: clamp(16px, 6vw, 37px);  /*pre deixar ele responsivo pra celular*/
   letter-spacing: 55%;
+  display: flex;
+  justify-content: center;
   text-align: center;
 
   background: linear-gradient(90deg, #cc2400, #fba928, #cc2400);
