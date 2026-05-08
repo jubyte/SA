@@ -79,6 +79,9 @@ body {
   color: #d1d1d1;
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
+  text-decoration: none;
+
+
 }
 
 .login__link:hover {
