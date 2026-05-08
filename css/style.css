@@ -128,7 +128,7 @@ body {
 .texto-sucesso{
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
-background: linear-gradient(90deg, #c07600, #fba928, #c07600);
+background: linear-gradient(90deg, #9c4c00, #e66f00, #9c4c00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   margin-bottom: 2%;
