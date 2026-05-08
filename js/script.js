@@ -35,24 +35,24 @@ form.addEventListener("submit", (e) => {
 
     // validações
     if (!email.includes("@") || !email.includes(".")) {
-        mensagem.innerHTML = "<div class='text-danger'>Email inválido!</div>";
+        mensagem.innerHTML = "<div class='texto-perigo'>Email inválido!</div>";
         return;
     }
 
     if (senha.length < 4) {
-        mensagem.innerHTML = "<div class='text-danger'>A senha deve ter pelo menos 4 caracteres!</div>";
+        mensagem.innerHTML = "<div class='texto-perigo'>A senha deve ter pelo menos 4 caracteres!</div>";
         return;
     }
 
     // CADASTRO
     if (cadastro) {
         if (localStorage.getItem(email)) {
-            mensagem.innerHTML = "<div class='text-warning'>Esse email já está cadastrado!</div>";
+            mensagem.innerHTML = "<div class='texto-aviso'>Esse email já está cadastrado!</div>";
             return;
         }
 
         localStorage.setItem(email, senha);
-        mensagem.innerHTML = "<div class='text-success'>Cadastro realizado com sucesso!</div>";
+        mensagem.innerHTML = "<div class='texto-sucesso'>Cadastro realizado com sucesso!</div>";
     }
 
     // LOGIN
@@ -60,11 +60,11 @@ form.addEventListener("submit", (e) => {
         const senhaSalva = localStorage.getItem(email);
 
         if (senhaSalva === null) {
-            mensagem.innerHTML = "<div class='text-danger'>Usuário não encontrado!</div>";
+            mensagem.innerHTML = "<div class='texto-perigo'>Usuário não encontrado!</div>";
         } else if (senhaSalva === senha) {
-            mensagem.innerHTML = "<div class='text-success'>Login realizado com sucesso!</div>";
+            mensagem.innerHTML = "<div class='texto-sucesso'>Login realizado com sucesso!</div>";
         } else {
-            mensagem.innerHTML = "<div class='text-danger'>Senha incorreta!</div>";
+            mensagem.innerHTML = "<div class='texto-perigo'>Email ou senha incorreta!</div>";
         }
     }
 
