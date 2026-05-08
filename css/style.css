@@ -24,7 +24,6 @@ body {
   max-width: 550px;
   width: 100%;
   padding: 60px 60px;
-
   background: #0a0a0ad2;
   backdrop-filter: blur(3px);
   border: 1px solid rgba(120,0,0,0.6);
@@ -80,8 +79,6 @@ body {
   color: #d1d1d1;
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
-
-
 }
 
 .login__link:hover {
@@ -119,18 +116,34 @@ body {
 .texto-perigo{
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
-  color:#9b130a;
-
+    background: linear-gradient(90deg, #000000, #d40000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-bottom: 2%;
 }
 
 .texto-sucesso{
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
-  color:#ee821e
+background: linear-gradient(90deg, #c07600, #fba928, #c07600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-bottom: 2%;
 }
 
 .texto-aviso{
   font-family: 'Science Gothic', sans-serif;
   font-weight: normal;
-  color:#f0ca22
+    background: linear-gradient(90deg, #ffc400, #fff4cf, #ffc400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  margin-bottom: 2%;
+}
+
+#form-login{
+  margin: 0;
+}
+
+#text-center{
+  margin: 0;
 }
