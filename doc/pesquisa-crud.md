@@ -1,4 +1,4 @@
-![Imagem do baner](assets/imgs/Banner_Crud.jpg)
+![Banner](../assets/imgs/banner_crud.jpg)
 
 CAPÍTULO 1 - CONCEITO 
 CRUD (Criar, Ler, Atualizar e Excluir) é um conjunto de quatro operações básicas usadas para manipular dados em sistemas de software. Esse conceito é fundamental porque define como as informações são armazenadas, acessadas e modificadas dentro de um banco de dados ou qualquer outro tipo de repositório de dados.
