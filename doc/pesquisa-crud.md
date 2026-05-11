@@ -1,3 +1,4 @@
+![Imagem do baner](assets/imgs/Banner_Crud.jpg)
 
 CAPÍTULO 1 - CONCEITO 
 CRUD (Criar, Ler, Atualizar e Excluir) é um conjunto de quatro operações básicas usadas para manipular dados em sistemas de software. Esse conceito é fundamental porque define como as informações são armazenadas, acessadas e modificadas dentro de um banco de dados ou qualquer outro tipo de repositório de dados.
@@ -6,6 +7,7 @@ Create (INSERT): inserir novos dados no sistema, como cadastrar um usuário.
  Read (SELECT): consultar ou visualizar informações já armazenadas.
  Update (UPDATE): modificar dados existentes, como editar um cadastro.
  Delete (DELETE): remover dados, que pode ser feito de forma definitiva ou apenas lógica (quando o dado não é apagado, mas marcado como inativo).
+
 CAPÍTULO 1.1 - OPERAÇÕES
 Essas operações são a base de praticamente todos os sistemas digitais, desde aplicativos simples até plataformas mais complexas. Sempre que o usuário cadastra, visualiza, edita ou exclui informações, ele está usando o CRUD. Além disso, o CRUD ajuda a organizar o sistema, pois define como o usuário se comunica com o banco de dados. Por isso, é considerado essencial no desenvolvimento, garantindo organização, facilidade de manutenção e crescimento do sistema. No fim, ele permite que o usuário gerencie os dados de forma completa e simples dentro da aplicação.
 
