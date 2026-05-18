@@ -35,7 +35,7 @@ body {
 
 .login__title {
   font-size: clamp(14px, 5vw, 30px); 
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 
   display: flex;
   justify-content: center;
